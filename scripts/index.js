@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
 
   validateForm();
 });
-  
+
 function validateForm() {
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
